@@ -32,7 +32,7 @@ class App extends Component {
 
    updateSelection = (event) => {
     this.setState({ value: event.target.value })
-    console.log(this.state)
+    
   }
   handleSubmit =(event) => {
     event.preventDefault()
